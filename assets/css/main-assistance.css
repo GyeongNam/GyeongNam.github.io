@@ -2,8 +2,12 @@
     .swiper-wrapper {
 
     }
+    .swiper-slide {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
     .swiper-pagination {
-        bottom: 10px; /* 조정해서 원하는 위치로 */
+        bottom: 10px;
     }
     .swiper-container {
         position: relative;
